@@ -191,6 +191,7 @@ void Mode::update_info(Info_person &ip, ifstream &info)
 	remove("test.txt");
 	rename("temp.txt", "test.txt");
     cout << "Susscessful update !\n\n\n";
+    
 }
 
 void Mode::delete_info(Info_person &ip, ifstream &info)
