@@ -4,7 +4,7 @@
 #include <string.h>
 using namespace std;
 
-struct person
+typedef struct
 {
     string name;
     string dep_city;
@@ -12,8 +12,7 @@ struct person
     string time;
     string date;
     string ticket_number;
-};
-typedef struct person Info_person;
+}Info_person;
 
 Info_person get_data(ifstream &read)
 {
